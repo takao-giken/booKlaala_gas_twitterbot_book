@@ -5,7 +5,7 @@ title: らぁらちゃんがGASでTwitterのBotを作る本
 
 # らぁらちゃんがGASでTwitterのBotを作る本
 
-![](/assets/hyoshi.png)
+![]({{site.github.url}}/assets/hyoshi.png)
 
 ## 概要
 
