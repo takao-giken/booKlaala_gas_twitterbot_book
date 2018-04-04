@@ -5,6 +5,8 @@ title: らぁらちゃんがGASでTwitterのBotを作る本
 
 # らぁらちゃんがGASでTwitterのBotを作る本
 
+![](/images/hyoshi.png)
+
 ## 概要
 
 らぁらちゃんがGASでTwitterのBotを作る本のページです．

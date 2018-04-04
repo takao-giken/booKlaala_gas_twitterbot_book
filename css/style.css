@@ -3,25 +3,19 @@ h1 {
 }
 
 h2{
-    position: relative;
-    display: inline-block;
-    padding: 0 55px;
+    margin-top: 10px;
+    background: linear-gradient(transparent 90%, #a7d6ff 70%);
 }
-
-h2:before, h2:after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 45px;
-    height: 1px;
-    background-color: black;
-}
-
-h2:before {left:0;}
-h2:after {right: 0;}
 
 #wrapper{
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
+}
+
+img{
+    margin: 10px auto;
+    max-width: 90%;
+    max-height: 70vh;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+    display: block;
 }
