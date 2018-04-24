@@ -7,6 +7,24 @@ title: らぁらちゃんがGASでTwitterのBotを作る本
 
 ![]({{site.github.url}}/assets/hyoshi.png)
 
+## コンテンツ
+
+３章でコピペするソースコードを掲載します．
+
+-----
+
+```javascript
+//今日のイベント一覧を取得する処理
+function getTodayEvents(){
+  const today = new Date();
+  const calender = CalendarApp.getDefaultCalendar();
+  const events = calender.getEventsForDay(today);
+  return events.map(function(e){return e.getTitle()});
+}
+```
+
+-----
+
 ## 概要
 
 らぁらちゃんがGASでTwitterのBotを作る本のページです．
